@@ -1,0 +1,48 @@
+QWidget{
+    background-color: #282f5f;
+    widget-animation-duration: 1000;
+}
+
+
+QPushButton {
+    border-style: none;
+    background-color:#394387 ;
+    color: antiquewhite;
+    border-radius:10px;
+}
+
+QPushButton:hover{
+    background-color:#2e366c ;
+}
+
+QLabel{
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+
+QLineEdit{
+    border:1px solid #6c7883;
+    color: white;
+    border-radius:4px;
+}
+
+QLineEdit:focus{
+    border-color: rgb(51, 149, 230);
+}
+
+[accessibleName="hiddenbutton"]{
+    background-color:transparent;
+    color: blue;
+}
+
+[accessibleName="hiddenbutton"]:hover
+{
+    background-color:transparent;
+    color: rgba(0, 0, 255, 0.39);
+}
+
+[accessibleName="passwordcontainer"]
+{
+    lineedit-password-mask-delay: 1000
+}

@@ -1,0 +1,15 @@
+    QWidget{
+        background-color: #17212b;
+        border-color: #202b36 ;
+        border-radius: 5px;
+    }
+
+    QWidget:hover{
+        background-color: #202b36;
+    }
+    QLabel{
+        background-color: transparent;
+        color: whitesmoke;
+        border-color: transparent;
+    }
+
